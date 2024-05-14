@@ -1,0 +1,87 @@
+.body-top {
+    width: 68%;
+    border: none;
+    margin: auto;
+    font-family:Verdana;
+    font-style: normal;
+    font-size: normal;
+    font-weight: bold;
+    text-align: center;
+}
+header {
+    padding: 2em;
+    color: rgba(238, 220, 187, 0.979);
+    background-color: #687377;
+    vertical-align: center;
+}
+#logo {
+    max-width: 180px;
+    max-height: 140px;
+}
+.col-9 {
+    display: flex;
+}
+h1 {
+    margin: auto;
+}
+@media screen and (max-width: 768px) {
+    #logo {
+        max-width: 100px;
+        max-height: 70px;
+    }
+    h1 {
+        font-size: 14px;
+    }
+}
+a {
+    color: #53524549;
+    border: solid #000000 2px;
+    box-shadow: 20px 0 20px -20px #000000 inset, -20px 0 20px -20px #000000 inset;
+}
+#menu {
+    background-color:rgba(247, 205, 90, 0.836);
+}
+.tour {
+    border: solid #333738;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.tour img {
+    width: 250px;
+    height: 170px;
+    padding: 5px;
+}
+.tour p .tour img {
+    margin: 0 10px;
+}
+.bth {
+    margin-left: auto;
+    order: 999;
+    background-color: #687377;
+    box-shadow: 20px 0 20px -20px #000000 inset, -20px 0 20px -20px #000000 inset;
+    color: #333738;
+}
+.tour a {
+    background-color: #687377;
+    box-shadow: 20px 0 20px -20px #000000 inset, -20px 0 20px -20px #000000 inset;
+    color: aliceblue;
+}
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 70px;
+}
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    color: rgba(238, 220, 187, 0.979);
+    background-color: #687377;
+}
