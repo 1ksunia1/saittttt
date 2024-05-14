@@ -1,0 +1,11 @@
+<?php
+	session_start();
+?>
+
+<?php
+	$mysgli = new mysqli('localhost', 'root', ", 'travel);
+	if ($mysqli->cooect_error)
+	{
+		die(' Connect Error ('.$mysql->connect_errno.') '.&mysql->connect_error);
+	}
+?>
